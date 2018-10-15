@@ -11,8 +11,6 @@ from RssReader.forms import RssReaderForm
 
 from django.views.decorators.csrf import csrf_protect
 from django.utils.decorators import method_decorator
-import urllib
-from lxml import html
 import requests
 from bs4 import BeautifulSoup
 from django.contrib import messages
